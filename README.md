@@ -1,6 +1,6 @@
 # pricer
 
-[![tests](https://github.com/adrienliao/option_pricer/actions/workflows/tests.yml/badge.svg)](https://github.com/adrienliao/option_pricer/actions/workflows/tests.yml)
+[![tests](https://github.com/adrienliao/option-pricing-engine/actions/workflows/tests.yml/badge.svg)](https://github.com/adrienliao/option-pricing-engine/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
