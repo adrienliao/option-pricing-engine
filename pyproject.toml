@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pricer"
+version = "0.2.0"
+description = "Option pricing: Black-Scholes, implied vol, CRR trees, Monte Carlo with variance reduction, barrier options"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Adrien Liao" }]
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "matplotlib>=3.7"]
+
+[tool.setuptools]
+packages = ["pricer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
